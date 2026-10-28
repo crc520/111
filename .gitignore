@@ -1,0 +1,21 @@
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+venv/
+
+# 密钥文件（最重要！防止DeepSeek密钥上传）
+.env
+.env.local
+
+# PyCharm配置
+.idea/
+
+# 打包、日志
+build/
+dist/
+*.log
